@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin-features
+	Bundle-Name="huanxindemo" 
+	Bundle-SymbolicName="com.easemob.chatuidemo"	
+	Bundle-Version="2.1.6"
+	date="2015.3.12"
+	provider-name="Apkplug" 
+	provider-url="" 
+	Bundle-Activator="com.huanxin.Testdemo.SimpleBundle"
+	Bundle-Activity="com.huanxin.Testdemo.MainActivity"
+	>
+</plugin-features>

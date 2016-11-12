@@ -1,0 +1,29 @@
+<resources>
+
+     <dimen name="height_top_bar">46dp</dimen>
+    <dimen name="padding_search_bar">5dp</dimen>
+    <dimen name="height_row_weixin">59dp</dimen>
+    <dimen name="size_avatar">50dp</dimen>
+    <dimen name="margin_chat_activity">5dp</dimen>
+    <dimen name="field_textsize">14sp</dimen>
+    <dimen name="field_margin_right">5dp</dimen>
+    <dimen name="call_button_padding_vertical">10dp</dimen>
+    <dimen name="call_button_padding_left">25dp</dimen>
+    <dimen name="call_button_padding_right">25dp</dimen>
+    <dimen name="sidebar_text_size">10dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+     <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+
+
+    <dimen name="pldroid_streaming_activity_horizontal_margin">0dp</dimen>
+    <dimen name="pldroid_streaming_activity_vertical_margin">0dp</dimen>
+    <dimen name="pldroid_streaming_item_padding">12dp</dimen>
+    <dimen name="pldroid_streaming_ring_size">72dp</dimen>
+    <dimen name="pldroid_streaming_ring_width">6dip</dimen>
+    <dimen name="pldroid_streaming_square_corner_radius">8dip</dimen>
+    <dimen name="pldroid_streaming_red_circle_padding">8dip</dimen>
+    <dimen name="pldroid_streaming_red_square_padding">16dip</dimen>
+    <dimen name="pldroid_streaming_streaming_status_padding">50dp</dimen>
+</resources>

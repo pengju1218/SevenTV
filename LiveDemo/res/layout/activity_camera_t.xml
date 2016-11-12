@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.qiniu.pili.droid.streaming.widget.AspectFrameLayout
+        android:id="@+id/cameraPreview_afl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <com.csdn.test.view.CameraPreviewFrameView
+            android:id="@+id/cameraPreview_surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+    </com.qiniu.pili.droid.streaming.widget.AspectFrameLayout>
+</RelativeLayout>
+<!--
+
+    <TextView
+        android:id="@+id/log_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/cd_tv_log_info"
+        android:visibility="gone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/cd_et_input_method"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/camera_switch_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/pldroid_streaming_item_padding"
+        android:contentDescription="@string/cd_btn_camera_switcher"
+        android:textColor="@color/pldroid_streaming_white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/stream_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pldroid_streaming_streaming_status_padding"
+        android:layout_marginTop="@dimen/pldroid_streaming_streaming_status_padding"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/cd_tv_stream_status"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/pldroid_streaming_white"
+        android:visibility="gone" />
+
+    <Button
+
+        android:id="@+id/torch_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/pldroid_streaming_item_padding"
+        android:layout_marginTop="@dimen/pldroid_streaming_item_padding"
+        android:contentDescription="@string/cd_btn_torch"
+        android:text="@string/flash_light_on"
+        android:textColor="@color/pldroid_streaming_white"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/capture_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/pldroid_streaming_item_padding"
+        android:contentDescription="@string/cd_btn_capture"
+        android:textColor="@color/pldroid_streaming_white"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/orientation_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/pldroid_streaming_item_padding"
+        android:contentDescription="@string/cd_btn_orientation"
+        android:textColor="@color/pldroid_streaming_white"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/mute_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/torch_btn"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/pldroid_streaming_item_padding"
+        android:layout_marginTop="150dp"
+        android:contentDescription="@string/cd_btn_mute"
+        android:textColor="@color/pldroid_streaming_white"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/fb_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/torch_btn"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/pldroid_streaming_item_padding"
+        android:layout_marginTop="150dp"
+        android:contentDescription="@string/cd_btn_fb"
+        android:textColor="@color/pldroid_streaming_white"
+        android:visibility="gone" />
+-->
+
+    <!--<SeekBar
+        android:id="@+id/beautyLevel_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:max="100"
+        android:progress="100"
+        android:visibility="gone" />-->
+
+<!--    <include layout="@layout/status" />-->
+

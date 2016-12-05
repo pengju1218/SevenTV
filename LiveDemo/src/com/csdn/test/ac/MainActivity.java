@@ -36,7 +36,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         if (v.getId() == R.id.btn_pili) {
             //  Intent intent = new Intent(MainActivity.this, HWCameraStreamingActivity.class);
             //   Intent intent = new Intent(MainActivity.this, HWCodecCameraStreamingActivity.class);
-            Intent intent = new Intent(MainActivity.this, SWCodecCameraStreamingActivity.class);
+            Intent intent = new Intent(MainActivity.this, HWCameraStreamingActivity.class);
             startActivity(intent);
         } else if (v.getId() == R.id.btn_play) {
             Intent intent = new Intent(MainActivity.this, PLMediaPlayerActivity.class);

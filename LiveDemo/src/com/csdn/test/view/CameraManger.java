@@ -14,7 +14,7 @@ public class CameraManger {
 
     public static CameraManger cameraManger;
 
-    private Camera camera = Camera.open();
+    private Camera camera =  Camera.open(Camera.CameraInfo.CAMERA_FACING_FRONT);
 
     public static CameraManger getInstance() {
         if (cameraManger == null) {
@@ -26,7 +26,7 @@ public class CameraManger {
 
     public void doOpenCamera(SurfaceTexture surface) {
         try {
-            camera = Camera.open();
+            camera = Camera.open(Camera.CameraInfo.CAMERA_FACING_FRONT);
             camera.setPreviewTexture(surface);
             //camera.startPreview();
             camera.setPreviewCallback(previewCallback);

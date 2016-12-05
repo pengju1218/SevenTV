@@ -43,10 +43,12 @@ public class CameraDrawer {
     private final int vertexStride = COORDS_PER_VERTEX * 4; // 4 bytes per vertex
 
     static float squareCoords[] = {
-       -1.0f,  1.0f,
-       -1.0f, -1.0f,
+
+
         1.0f, -1.0f,
         1.0f,  1.0f,
+            -1.0f,  1.0f,
+            -1.0f, -1.0f,
     };
 
     static float textureVertices[] = {

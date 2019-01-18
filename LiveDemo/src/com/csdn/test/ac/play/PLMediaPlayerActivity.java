@@ -59,7 +59,7 @@ public class PLMediaPlayerActivity extends BaseActivity {
         mSurfaceView.getHolder().addCallback(mCallback);
 
         mVideoPath = getIntent().getStringExtra("videoPath");
-        mVideoPath="rtmp://live.hkstv.hk.lxdns.com/live/hks";
+        mVideoPath="rtmp://live.hkstv.hk.lxdns.com/live/hks1";
         mAVOptions = new AVOptions();
 
         int isLiveStreaming = getIntent().getIntExtra("liveStreaming", 1);
